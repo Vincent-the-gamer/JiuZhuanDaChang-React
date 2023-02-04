@@ -14,7 +14,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src")
     }
   },
-  base: "/JiuZhuanDaChang-React/",
+  base: "./",
   build: {
     cssCodeSplit: true,
   }
