@@ -1,0 +1,58 @@
+.dialogItem{
+    height: 80px;
+    width: 100%;
+    color: white;
+    padding: 12px;
+    background-color: rgb(52, 52, 52);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: width, 0.5s;
+    text-shadow: 2px 2px 15px black;
+    &:hover{
+        transform: scale(105%, 105%);
+        box-shadow: 3px 3px 15px deeppink;
+    }
+    .leftStyle{
+        position: relative;
+        top: 15px;
+        width: 100%;
+        img{
+            position: relative;
+            top: -6px;
+            height: 60px;
+            display: inline;
+            float: left;
+        }
+        .text{
+            position: relative;
+            display: inline;
+            margin: 0;
+            left: 10px;
+            h3 {
+                display: inline;
+                position: relative;
+                width: 500px;
+                left: 0;
+                top: -7px;
+            }
+        }
+    }
+    .rightStyle{
+        position: relative;
+        top: 15px;
+        img{
+            position: relative;
+            top: -6px;
+            height: 60px;
+            display: inline;
+            float: right;
+        }
+        h3{
+            display: inline;
+            float: right;
+            position: relative;
+            top: -25px;
+            right: 7px;
+        }
+    }
+}
